@@ -22,7 +22,15 @@
 6. 连接电路板和调通代码
 7. 制作盒子和背景卡片
 ## 电路图
+!(https://github.com/Entropy2019/Arduino-LEDHeatMap/blob/main/%E5%9B%BE%E7%89%87/%E7%94%B5%E8%B7%AF%E5%9B%BE.png)
 ## 代码解释
+* 通过体温虚拟变量实现对应的温度显示不同体温下的灯光效果
+* 通过正弦函数代替锯齿波实现呼吸灯，
+* 通过正弦函数周期体现呼吸速率，
+* 通过周期的线型变化和体温虚拟变量的线型变化模拟人的体温在环境温度骤变时缓慢调整
+## 视频演示
+![不同的背景卡对应不同的体温](https://github.com/Entropy2019/Arduino-LEDHeatMap/blob/main/%E5%9B%BE%E7%89%87/%E6%BC%94%E7%A4%BA%E8%A7%86%E9%A2%91.gif)
+
 
 
 
